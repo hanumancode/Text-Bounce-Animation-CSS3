@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif;
+}
+
+.container {
+
+}
+
+.container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    border-bottom: 8px solid #fff;
+    box-shadow: 0 10px   10px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 span {
+    position: relative;
+    display: inline-block;
+    animation: animate 1.5s ease-in-out infinite;
+}
+
